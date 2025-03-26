@@ -2,9 +2,9 @@ public class Concussion extends Injury {
 
     private boolean memoryLoss;
 
-    public Concussion(int painLevel, String location, String painType, boolean memoryLoss)
+    public Concussion(int painLevel, String location, boolean memoryLoss)
     {
-        super("Concussion", painLevel, location, "Throbbing");
+        super("Concussion", painLevel, location, "throbbing");
         this.memoryLoss = memoryLoss;
     }
 

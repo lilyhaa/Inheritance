@@ -6,7 +6,7 @@ public class Injury {
 
     private String painType;
 
-    public Injury(String name; int painLevel, String location, String painType)
+    public Injury(String name, int painLevel, String location, String painType)
     {
         this.name = name;
         this.painLevel = painLevel;
@@ -56,6 +56,6 @@ public class Injury {
     }
     public String toString()
     {
-        return "Injury: " +  name + " at " + location + " with " + painType + " and " + painLevel + "pain";
+        return "Injury Report: " +  name + " at " + location + " with " + painType + " and " + painLevel + "/10 pain.";
     }
 }

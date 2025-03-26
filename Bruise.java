@@ -19,6 +19,6 @@ public class Bruise extends Injury{
 
     public String toString()
     {
-        return super.toString() + ". The color of the bruise is " + color;
+        return super.toString() + " The color of the bruise is " + color + ".";
     }
 }
